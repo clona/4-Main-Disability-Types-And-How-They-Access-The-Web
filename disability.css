@@ -1,0 +1,61 @@
+/* CSS Document */
+
+#content {
+	position:relative;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.parent {
+	background: black;
+	
+  font-size: 0;
+	text-align: center;
+	background-color: #333;
+}
+
+.child {
+	width: 400px;
+	
+  display: inline-block;
+	text-align: left;
+	background-color: #066;
+	margin-left: 10px;
+	margin: 0 10px;
+	border-left: 10px;
+	padding-left: 10px;
+	vertical-align: top;
+}
+
+
+
+.body {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFF;
+}
+
+a.bodylink:link {
+	color: #FF0;
+	text-decoration: underline;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18pt;
+}
+
+a.bodylink:visited {
+	color: #CCC;
+	text-decoration: none;
+	font-size: 18pt;
+}
+
+a.bodylink:hover {
+	text-decoration: none;
+	font-size: 18pt;
+	color: #066;
+}
